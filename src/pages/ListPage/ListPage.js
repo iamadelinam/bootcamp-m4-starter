@@ -62,7 +62,10 @@ class ListPage extends Component {
             );
           })}
         </ul>
-        <Link to="/">Домой</Link>
+        <Link className='home' to="/">Домой</Link>
+        <br/>
+        <Link className='home' to="">Поделиться</Link>
+
       </div>
     );
   }

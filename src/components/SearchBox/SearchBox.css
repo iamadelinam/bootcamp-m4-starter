@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .search-box__form {
     display: flex;
 }
@@ -5,6 +7,7 @@
 .search-box__form-label {
     display: inline-block;
     font-size: 12px;
+    font-family: 'Montserrat';
     margin-right: 10px;
 }
 
@@ -14,17 +17,23 @@
     margin-top: 5px;
     width: 300px;
     font-size: 14px;
+    font-family: 'Montserrat';
     padding: 5px 10px;
-    border: 1px solid rgba(0, 8, 7, .5);
+    border: 1px solid #a4b6ed;
+    border-radius: 3px;
 }
 
 .search-box__form-submit {
     margin-top: 17px;
     padding: 5px 10px;
     border: none;
+    border-radius: 3px;
     transition: all 0.2s linear;
-    color: #FFEEDB;
-    background-color: rgba(0, 8, 7);
+    /* color: #FFEEDB; */
+color:#ffeedb;
+    /* background-color: rgba(0, 8, 7); */
+    background-color:#496ddb;
+    font-family: 'Montserrat';
 }
 
 .search-box__form-submit:hover:not(:disabled) {

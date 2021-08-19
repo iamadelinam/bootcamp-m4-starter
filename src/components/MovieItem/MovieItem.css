@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
 .movie-item {
     padding: 20px;
-    background-color: #FFEEDB;
+    /* background: #ffeedb; */
+    background: #dbecff;
+    border-radius: 12px;
     display: flex;
 }
 
@@ -17,10 +25,13 @@
 
 .movie-item__add-button {
     border: none;
+    border-radius: 6px;
     background-color: #496DDB;
     padding: 10px 15px;
     color: #FFEEDB;
     font-size: 14px;
+    font-family: 'Montserrat';
+
     transition: all 0.2s linear;
 }
 

@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ * {
+  font-family: 'Montserrat';
+ }
+
 .favorites {
   box-sizing: border-box;
-  border: 1px solid rgba(0, 8, 7);
+  border: 1px solid #a4b6ed;
+  border-radius: 6px;
   padding: 30px 20px;
 }
 
@@ -8,8 +14,10 @@
   box-sizing: border-box;
   width: 100%;
   font-size: 16px;
+  font-family: 'Montserrat';
   padding: 5px 10px;
-  border: 1px solid rgba(0, 8, 7, 0.5);
+  border: 1px solid #a4b6ed;
+  border-radius: 6px;
   margin-bottom: 24px;
 }
 
@@ -26,10 +34,12 @@
 
 .favorites__save {
   border: none;
+  border-radius: 6px;
   background-color: #496ddb;
   padding: 10px 15px;
   color: #ffeedb;
   font-size: 14px;
+  font-family: 'Montserrat';
   transition: all 0.2s linear;
 }
 
@@ -37,4 +47,11 @@
   cursor: pointer;
   opacity: 0.9;
   transition: all 0.2s linear;
+}
+
+.delete {
+  background-color: #496ddb;
+  border: none;
+  border-radius: 50%;
+  color: #ffeedb;
 }

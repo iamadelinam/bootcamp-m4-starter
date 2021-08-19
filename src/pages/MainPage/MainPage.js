@@ -7,7 +7,6 @@ import Favorites from "../../components/Favorites/Favorites";
 import { useState } from "react";
 
 const tokenN = "cc244bae";
-// const tokenA = "9c9f2866";
 const getMovies = (query) => {
   return fetch(`http://www.omdbapi.com/?s=${query}&apikey=${tokenN}`)
     .then((response) => response.json())
